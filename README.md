@@ -1,7 +1,7 @@
 # WEB.RED
 
 
-# QUE ES WEB.RED
+# ¿ QUE ES WEB.RED ?
 <p>ES UN SCRIPT EN BASH Y PHP ECHO PARA SACAR FOTO DE LA WEBCAM DELANTERA CON UN ENLACE A CUALQUIER SISTEMA OPERATIIVO </p>
 
 ## 3 PLANTILLAS
@@ -13,7 +13,7 @@
 </ul>
 
 
-## This Tool Tested On :
+## SISTEMA OPERATIVOS :
 <ul>
   <li>Kali Linux</li>
   <li>Termux</li>
@@ -22,8 +22,8 @@
   <li>Parrot Sec OS</li>
 </ul>
 
-# Installing and requirements
-<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
+# REQUERIMIENTO PARA LA INSTALACION
+<p>PHP Y SSH</p>
 
 ```
 apt-get -y install php openssh git wget
