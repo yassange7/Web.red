@@ -32,12 +32,12 @@ apt-get -y install php openssh git wget
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/techchipnet/CamPhish
-cd CamPhish
-bash camphish.sh
+git clone https://github.com/yassange7/WEB.RED
+cd WEB.RED
+bash WEB.RED.sh
 ```
 
-## Change Log:
+## REQUIERE NGROK:
 
 <p><b>Version: 1.5:</b> Add new online meeting template</p>
 <p><b>Version: 1.4:</b> Ngrok authtoken update</p>
