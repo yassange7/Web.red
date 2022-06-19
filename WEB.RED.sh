@@ -1,6 +1,19 @@
 
+clear
+echo ""
+echo ""
+echo " ESPERA UN MOMENTO POR FAVOR "
+echo ""
+sleep 2
+echo " RECUERDA"
+sleep 2
+echo  "
+ ____ _    _    ____    _  _ ____    ___ ____    ____ _  _ ____ 
+|___ |    |    |__|    |\ | |  |     |  |___    |__| |\/| |__| 
+|___ |___ |___ |  |    | \| |__|     |  |___    |  | |  | |  |"
+sleep 3
+clear
 
-trap 'printf "\n";stop' 2
 
 echo "
 ██████╗  ██████╗      ██╗ ██████╗ 
@@ -67,7 +80,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!\e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] FOTO RECIBIDA \e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
