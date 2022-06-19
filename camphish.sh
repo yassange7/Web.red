@@ -286,6 +286,5 @@ checkfound
 
 }
 
-banner
 dependencies
 camphish
