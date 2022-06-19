@@ -1,17 +1,17 @@
 # WEB.RED
 
 
-# What is CamPhish?
-<p></p>
+# QUE ES WEB.RED
+<p>ES UN SCRIPT EN BASH Y PHP ECHO PARA SACAR FOTO DE LA WEBCAM DELANTERA CON UN ENLACE A CUALQUIER SISTEMA OPERATIIVO </p>
 
-## Features
-<p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
+## 3 PLANTILLAS
+<p>PLANTILLAS</p>
 <ul>
-  <li>Festival Wishing</li>
-  <li>Live YouTube TV</li>
-   <li>Online Meeting [Beta]</li>
+  <li>FACEBOOK</li>
+  <li>YOU TUBE</li>
+   <li>MEET</li>
 </ul>
-<p>simply enter festival name or youtube's video ID</p>
+
 
 ## This Tool Tested On :
 <ul>
