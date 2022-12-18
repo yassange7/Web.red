@@ -82,7 +82,7 @@ cat ip.txt >> saved.ip.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;31m[\e[0m\e[1;31m*\e[0m\e[1;31m] Waiting targets,\e[0m\e[1;37m Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;31m*\e[0m\e[1;31m] Waiting targets,\e[0m\e[1;31m Press Ctrl + C to exit...\e[0m\n"
 while [ true ]; do
 
 
@@ -131,7 +131,7 @@ fuser -k 3333/tcp > /dev/null 2>&1
 php -S localhost:3333 > /dev/null 2>&1 &
 sleep 3
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
-printf '\e[1;37m[\e[0m\e[1;77m+\e[0m\e[1;93m] Direct link:\e[0m\e[1;37m %s\n' $send_link
+printf '\e[1;37m[\e[0m\e[1;31m+\e[0m\e[1;31m] Direct link:\e[0m\e[1;31m %s\n' $send_link
 
 }
 
