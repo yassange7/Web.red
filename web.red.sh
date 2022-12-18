@@ -1,4 +1,3 @@
-
 clear
 white="\33[1;37m"
 grey="\33[0;37m"
@@ -12,10 +11,7 @@ Cafe="\33[0;33m"
 Fiuscha="\33[0;35m"
 blue="\33[1;34m"
 echo -e "$Cyan"
-echo "ERES INVICIBLE"
 sleep 1
-clear
-
 
 echo "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -326,8 +322,4 @@ checkfound
 }
 
 dependencies
-camphish
-ls
-cd WEB.RED
-ls
-bash WEB.RED.sh
+
