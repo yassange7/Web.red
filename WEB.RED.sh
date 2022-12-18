@@ -11,9 +11,8 @@ Cyan="\33[0;36m"
 Cafe="\33[0;33m"
 Fiuscha="\33[0;35m"
 blue="\33[1;34m"
-echo ""
-echo -e "$red"
-echo "ERES INVICIBLE "
+echo -e "$Cyan"
+echo "ERES INVICIBLE"
 sleep 1
 clear
 
