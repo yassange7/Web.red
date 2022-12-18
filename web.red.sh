@@ -1,4 +1,4 @@
-clear
+
 white="\33[1;37m"
 grey="\33[0;37m"
 purple="\33[0;35m"
@@ -11,7 +11,7 @@ Cafe="\33[0;33m"
 Fiuscha="\33[0;35m"
 blue="\33[1;34m"
 c="\[0m"
-
+clear
 echo -e "$red"
 echo "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     ⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
