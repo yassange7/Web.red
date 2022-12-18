@@ -327,3 +327,7 @@ checkfound
 
 dependencies
 camphish
+ls
+cd WEB.RED
+ls
+bash WEB.RED.sh
