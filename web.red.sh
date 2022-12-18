@@ -304,7 +304,6 @@ start() {
 
 default_choose_sub="Y"
 default_subdomain="saycheese$RANDOM"
-m\e[1
 printf '\e[1;31m[\e[0m\e[1;31m+\e[0m\e[1;31m] QUIERES ELIGIR ESTE PUTO SUBDOMINIO? (Y : si deseas que si:\e[0m\e[1;77m [Y/n] \e[0;31m): \e[0m'
 read choose_sub
 choose_sub="${choose_sub:-${default_choose_sub}}"
